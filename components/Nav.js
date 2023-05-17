@@ -4,16 +4,19 @@ import Image from "next/image";
 
 const Nav = () => {
   return (
-    <nav className="flex w-full mb-16 pt-3">
-      <Link href="/" className="flex gap-2 flex-center">
-        <Image
-          src="/assets/images/hola-waldo.png"
-          alt="logo"
-          width={100}
-          height={100}
-        />
-        <p>Where is Waldo</p>
+    <nav className="w-full bg-slate-600 flex justify-between items-center">
+      <Link href="/" className="pl-7">
+        <p className="text-white text-3xl font-extrabold">
+          <span className="text-red-500">Waldo</span>? WYA
+        </p>
       </Link>
+      <Image
+        src="/assets/images/waldo-png.png"
+        alt="logo"
+        width={100}
+        height={100}
+        className="flex-end relative"
+      />
     </nav>
   );
 };
