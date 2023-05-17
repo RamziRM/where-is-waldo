@@ -1,3 +1,4 @@
+// homepage of the app
 import React from "react";
 
 const Home = () => {
