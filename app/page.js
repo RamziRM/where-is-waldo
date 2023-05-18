@@ -14,12 +14,12 @@ import {
 
 const Home = () => {
   return (
-    <section className="w-full h-screen flex flex-col items-center gap-5">
+    <section className="w-full h-screen flex flex-col items-center gap-5 bg-white">
       <h3 className="text-3xl font-extrabold text-slate-600 mt-4">
         Select an option to play
       </h3>
       <div className="flex flex-col md:flex-row justify-center items-center gap-10">
-        <Link href="/upload">
+        <Link href="/beach">
           <Card>
             <CardHeader>
               <CardTitle>The beach</CardTitle>
@@ -39,7 +39,7 @@ const Home = () => {
             </CardFooter>
           </Card>
         </Link>
-        <Link href="/search">
+        <Link href="/space">
           <Card>
             <CardHeader>
               <CardTitle>Interplanetary civilization</CardTitle>
