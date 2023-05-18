@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="w-full bg-slate-600 flex justify-between items-center">
       <Link href="/" className="pl-7">
         <p className="text-white text-3xl font-extrabold">
-          <span className="text-red-500">Waldo</span>? WYA
+          <span className="text-red-500">Waldo</span>? <br></br>WYA
         </p>
       </Link>
       <Image
